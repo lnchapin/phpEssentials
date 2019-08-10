@@ -5,7 +5,10 @@
     <title>PHP User Input</title>
   </head>
   <body>
-    <a href="https://youtu.be/OK_JCtrrv-c?t=3917">Video</a>
+    <form action="userinput.php" method="get">
+      <label for="name"></label>
+      <input type="text" name="name" value="">
+    </form>
     <?php
 
     ?>
